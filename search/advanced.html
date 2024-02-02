@@ -18,23 +18,31 @@
     </div>
     <h1>Advanced Image Search</h1>
     <hr class="new1">
+    <div class="title">
+        <p class="p_1">Find pages with...</p>
+        <p class="p_2">To do this in the search box.</p>
+    </div>
     <div class="advanced_search_container">
         <form action="https://www.google.com/search" method="GET">
             <div class="input">
                 <label for="all">All these words:</label>
                 <input type="text" id="all" name="as_q">
+                <label for="all">Type the important words: tri-colour rat terrier</label>
             </div>
             <div class="input">
                 <label for="exact">This exact word or phrase:</label>
                 <input type="text" id="exact" name="as_epq">
+                <label for="exact">Put exact words in quotes: "rat terrier"</label>
             </div>
             <div class="input">
                 <label for="any">Any of these words:</label>
                 <input type="text" id="any" name="as_oq">
+                <label for="any">Type OR between all the words you want: miniature OR standard</label>
             </div>
             <div class="input">
                 <label for="none">None of these words:</label>
                 <input type="text" id="none" name="as_eq">
+                <label for="none">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
             </div>
             <input type="submit" value="Advanced Search">
         </form>

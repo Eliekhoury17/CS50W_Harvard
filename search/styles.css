@@ -119,9 +119,63 @@ hr.new1 {
   
 .advanced_search_container{
     margin-top: 40px;
+    margin-left: 15px;
 }
 
 .advanced_search_container .input{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.advanced_search_container .input input[type=text]{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 480px;
+    border-color: whitesmoke;
+}
+
+.advanced_search_container .input #all{
+    margin-left: 65px;
+}
+
+.advanced_search_container .input #any{
+    margin-left: 42px;
+}
+
+.advanced_search_container .input #none{
+    margin-left: 35px;
+}
+
+.advanced_search_container label{
+    padding-left: 10px;
+}
+
+.advanced_search_container input[type=submit]{
+    margin-left: 708px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.advanced_search_container input[type=submit]:hover{
+    background-color: #4169E1;
+    border-color: #4169E1;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.title .p_2{
+    margin-left: 700px;
 }
