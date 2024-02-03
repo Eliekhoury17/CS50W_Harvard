@@ -1,5 +1,5 @@
 body{
-    font: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -19,6 +19,11 @@ h1{
     margin-left: 1260px;
     margin-top: 10px;
     color: black;
+    font-size: 13px;
+}
+
+.nav_container_adv > a:hover{
+    text-decoration: underline;
 }
 
 .nav_container_right > a{
@@ -31,6 +36,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    font-size: 13px;
 }
 
 .nav_container > a{
@@ -127,6 +133,7 @@ hr.new1 {
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .advanced_search_container .input input[type=text]{
@@ -138,6 +145,10 @@ hr.new1 {
 
 .advanced_search_container .input #all{
     margin-left: 65px;
+}
+
+.advanced_search_container .input #exact{
+    margin-left: 11px;
 }
 
 .advanced_search_container .input #any{
@@ -153,12 +164,14 @@ hr.new1 {
 }
 
 .advanced_search_container input[type=submit]{
-    margin-left: 708px;
+    margin-left: 685px;
+    margin-top: 15px;
     color: white;
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #1E90FF;
     border-color: #1E90FF;
+    border-radius: 2px;
 }
 
 .advanced_search_container input[type=submit]:hover{
@@ -177,5 +190,5 @@ hr.new1 {
 }
 
 .title .p_2{
-    margin-left: 700px;
+    margin-left: 655px;
 }
